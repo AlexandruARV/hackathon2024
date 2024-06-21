@@ -6,19 +6,25 @@ function Login() {
   const form = useActionData();
   console.log(form);
   return (
+    <div>
+    <p className={styles.header}>Green School
+  
+    </p>
+    <div className={styles.subtitle}>Welcome to the gratest school</div>
     <Form method="POST" className={styles.form}>
       <div className={styles.headerTitle}>Login</div>
       <label>Username</label>
-      <input placeholder="username" type="text" name="username"></input>
+      <input placeholder="" type="text" name="username"></input>
 
       <label>Password</label>
-      <input placeholder="password" type="password" name="password"></input>
+      <input placeholder="" type="password" name="password"></input>
       <button>Login</button>
       <label>
         {`You don't have an account?`}
         <Link to="/register">Register</Link>
       </label>
     </Form>
+    </div>
   );
 }
 

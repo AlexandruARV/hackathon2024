@@ -9,20 +9,20 @@ function AppNav() {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="/">home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="products">products</NavLink>
+          <NavLink to="products">Products</NavLink>
         </li>
         <li>
-          <NavLink to="articles">articles</NavLink>
+          <NavLink to="articles">Articles</NavLink>
         </li>
         <li>
-          <NavLink to="quizzes">quizzes</NavLink>
+          <NavLink to="quizz">Quizzes</NavLink>
         </li>
         {isLogged ? (
           <li>
-            <NavLink to="login">login</NavLink>
+            <NavLink to="login">Login</NavLink>
           </li>
         ) : (
           <li></li>

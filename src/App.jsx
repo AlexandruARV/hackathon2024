@@ -6,6 +6,7 @@ import AppLayout from "./ui/AppLayout";
 import Products from "./features/products/Products";
 import QuizSelect from "./features/quizzes/QuizSelect";
 import Register from "./features/user/Register";
+import Quizz from "./features/quizzes/Quizz";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,9 @@ const router = createBrowserRouter([
       { path: "/register", element: <Register /> },
       { path: "/articles", element: <Articles /> },
       { path: "/products", element: <Products /> },
-      { path: "/quizzes", element: <QuizSelect /> },
+      { path: "/quizz", element: <QuizSelect /> },
+      { path: "/quizz/:id", element: <Quizz /> },
+
     ],
   },
 ]);

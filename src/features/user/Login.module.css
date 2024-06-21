@@ -1,27 +1,87 @@
+.header{
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  margin-top: 2rem;
+  margin-bottom: 0.3rem;
+  
+}
+.subtitle{
+  color: #495057;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  
+}
 .form {
   display: flex;
   flex-direction: column;
   color: black;
   max-width: 20rem;
-  margin: 8rem auto;
-
+  margin: 4rem auto;
+  border-radius: 0.5rem;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
 }
+
 .headerTitle {
   text-align: center;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
 }
+
+.headerSubtitle{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
 .form input {
   font-size: 1.2rem;
-  padding: 0.3rem 0.6rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.3rem;
+  border: 1px solid #dee2e6;
+  background-color: #f1f3f5;
+  color: #495057;
 }
 
 .form button {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 0.6rem;
   font-size: 1.2rem;
   background-color: var(--primary-color);
+  border: none;
+  border-radius:0.4rem;
+}
+
+.form label{
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #495057;
+}
+.form label:last-child{
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color:#495057;
+}
+
+.registerTitle{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  
+}
+
+.registerSubtitle{
+  text-align: center;
+  font-weight: 400;
+  color: #495057;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
